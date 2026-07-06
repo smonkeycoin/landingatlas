@@ -51,6 +51,14 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+document.querySelectorAll(".page-transition").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    document.body.classList.add("page-leaving");
+    setTimeout(() => { window.location.href = link.href; }, 180);
+  });
+});
+
 document.querySelectorAll(".stripe-mock").forEach((button) => {
   button.addEventListener("click", openModal);
 });
