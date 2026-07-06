@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ATLAS OS Symbol</title>
+  <desc id="desc">Abstract compass A symbol for ATLAS OS.</desc>
+  <defs>
+    <linearGradient id="atlasA" x1="20" y1="108" x2="99" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.52" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 12L116 108H86.5L64 65.5L41.5 108H12L64 12Z" fill="url(#atlasA)"/>
+  <path d="M64 36L83.5 72H72.2L64 56.7L55.8 72H44.5L64 36Z" fill="#F8FAFC" fill-opacity="0.18"/>
+  <path d="M52 108L64 85L76 108H52Z" fill="#0B1220" fill-opacity="0.9"/>
+</svg>
